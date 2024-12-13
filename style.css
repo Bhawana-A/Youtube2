@@ -1,3 +1,9 @@
+@font-face {
+    font-family: Buttermilk;
+    src: url(./Buttermilk.woff2c:\Users\hp\Downloads\Natural2.webp);
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -12,7 +18,7 @@ html,body{
 #bg{
     height: 100%;
     width: 100%;
-    background-image: url(./Natural2.jpg);
+    background-image: url(./Natural2.webp);
     background-size: cover;
 }
 
@@ -21,7 +27,7 @@ h1{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    font-family: system-ui, -apple-system,  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-family: Buttermilk ;
     font-weight: 100;
     font-size: 130px;
     color: #fff;
